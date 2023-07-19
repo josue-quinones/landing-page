@@ -10,6 +10,7 @@ Goals:
 - [ ] Have header, footer, and four main sections
 - [ ] Use flexbox to handle formatting
 - [ ] Have the webpage look like ![example page](./examples/example-page.png)
+
 - [ ] Use the styles to meeet ![specs](./examples/specs.png)
 
 Credit for pictures:
