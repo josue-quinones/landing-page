@@ -2,6 +2,7 @@
 Mock Landing Page.
 
 The landing page specs come from [The Odin Project](https://www.theodinproject.com/)
+
 Written in:
 * HTML
 * CSS
