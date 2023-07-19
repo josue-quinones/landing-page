@@ -17,3 +17,7 @@ Goals:
 Credit for pictures: All pictures were taken from [unsplash.com](https://www.unsplash.com)
 
 Lessons Learned:
+1. Terminal commands are awesome.
+2. Creating a fake company is harder than it sounds.
+3. Start with writing the html and putting all the content needed in the page. Then do the formatting.
+4. 
