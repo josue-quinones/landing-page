@@ -1,5 +1,5 @@
 # Mock Landing Page (landing-page)
-Mock Landing Page.
+Mock Landing Page for ThunderStorm, a company that specializes in helping others learn how to network.
 
 The landing page specs come from [The Odin Project](https://www.theodinproject.com/)
 
@@ -14,7 +14,6 @@ Goals:
 
 - [ ] Use the styles to meeet ![specs](./examples/specs.png)
 
-Credit for pictures:
-
+Credit for pictures: All pictures were taken from [unsplash.com](https://www.unsplash.com)
 
 Lessons Learned:
