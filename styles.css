@@ -8,6 +8,7 @@ body {
 
 .header, .hero ,.footer {
     background-color: #1f2937;
+    width: 100%;
 }
 
 .header-logo {
@@ -32,7 +33,11 @@ ul {
 
 a {
     text-decoration: none;
-    color: #efe7eb;
+    color: #e5e7eb;
+}
+
+.hero {
+    padding: 100px 0px;
 }
 
 .company-title {
@@ -50,6 +55,7 @@ a {
     font-size: 36px;
     font-weight:800;
     color:#1f2937;
+    padding: 50px;
 }
 
 .intro {
@@ -58,6 +64,21 @@ a {
 
 .intro .company-subtitle {
     padding: 10px 0px;
+}
+
+.intro button {
+    border: 0px;
+}
+
+.hero img {
+    max-width: 300px;
+    height: auto;
+    padding-right: 100px;
+}
+
+.container img {
+    max-width: 250px;
+    height: auto;
 }
 
 .quote {
@@ -73,17 +94,42 @@ a {
 
 .quote .author {
     color: #1f2937;
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 18px;
 }
-
 
 .subscribe {
     background-color: #3882f6;
+    max-width: 75%;
+    padding: 40px 60px;
+    margin: 40px 0px;
+}
+
+.subscribe .sub-header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.subscribe .sub-text {
+    color: #e5e7eb;
+}
+
+.subscribe button {
+    border: 2px solid #f9faf8;
 }
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.footer {
+    color: #f9faf8;
+    padding: 30px 0px;
 }
 
 /* Flex */
@@ -95,7 +141,6 @@ body {
 }
 
 .header {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,25 +152,10 @@ body {
 }
 
 .hero {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px;
     gap: 20px;
-}
-
-.intro button {
-    border: 0px;
-    font-weight: bold;
-    padding: 10px 40px;
-    border-radius: 10px;
-}
-
-.hero img {
-    max-width: 300px;
-    height: auto;
-    padding-right: 100px;
 }
 
 .features {
@@ -135,23 +165,26 @@ body {
     align-items: center;
 }
 
-.header-features {
-    padding: 50px;
-}
-/* .container {
+.container {
     display: flex;
-    
-} */
-/* 
-.container img {
-    max-width: 250px;
-    height: auto;
-}
+    flex: 1;
+} 
 
 .card {
     display: flex;
     flex-direction: column;
     flex: 1;
     justify-content: baseline;
-} */
+}
 
+.subscribe {
+    display: flex;
+    justify-content:space-evenly;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
