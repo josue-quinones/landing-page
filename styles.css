@@ -102,7 +102,7 @@ a {
     background-color: #3882f6;
     max-width: 75%;
     padding: 40px 60px;
-    margin: 40px 0px;
+    margin: 60px 0px;
 }
 
 .subscribe .sub-header {
@@ -180,7 +180,7 @@ body {
 .subscribe {
     display: flex;
     justify-content:space-evenly;
-    gap: 10px;
+    gap: 80px;
 }
 
 .footer {
