@@ -83,6 +83,7 @@ a {
 
 .quote {
     background-color: #e5e7eb;
+    padding: 100px;
 }
 
 .quote .text {
@@ -175,6 +176,14 @@ body {
     flex-direction: column;
     flex: 1;
     justify-content: baseline;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .subscribe {
