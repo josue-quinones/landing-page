@@ -98,6 +98,8 @@ a {
     color: #1f2937;
     font-weight: 800;
     font-size: 18px;
+    text-align: right;
+    width: 100%;
 }
 
 .subscribe {
