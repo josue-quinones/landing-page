@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: 'roboto';
+    font-family: Roboto;
     margin: 0px;
     padding:0px;
 }
@@ -11,8 +13,17 @@ body {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: 700;
+    font-weight:800;
 }
+
+.header-logo {
+    padding-left: 100px;
+}
+
+.header-links {
+    padding-right: 100px;
+}
+
 
 ul {
     list-style: none;
@@ -39,6 +50,14 @@ a {
     font-size: 36px;
     font-weight:800;
     color:#1f2937;
+}
+
+.intro {
+    padding-left: 100px;
+}
+
+.intro .company-subtitle {
+    padding: 10px 0px;
 }
 
 .quote {
@@ -73,7 +92,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
 }
 
 .header {
@@ -88,25 +106,20 @@ body {
     gap: 16px;
 }
 
-.header-logo {
-    padding-left: 100px;
-}
-
-.header-links {
-    padding-right: 100px;
-}
-
 .hero {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 100px;
-    gap: 20px
+    gap: 20px;
 }
 
-.intro {
-    padding-left: 100px;
+.intro button {
+    border: 0px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
 }
 
 .hero img {
@@ -116,14 +129,20 @@ body {
 }
 
 .features {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.container {
+.header-features {
+    padding: 50px;
+}
+/* .container {
     display: flex;
     
-}
-
+} */
+/* 
 .container img {
     max-width: 250px;
     height: auto;
@@ -134,5 +153,5 @@ body {
     flex-direction: column;
     flex: 1;
     justify-content: baseline;
-}
+} */
 
