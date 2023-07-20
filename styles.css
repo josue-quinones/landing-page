@@ -74,16 +74,13 @@ body {
     flex-direction: column;
     align-items: center;
     flex: 1;
-    width: 100%;
 }
 
 .header {
-    width: 100%;;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    /* margin: 0px 20px;
-    padding: 0px 10px; */
 }
 
 .header ul {
@@ -91,13 +88,51 @@ body {
     gap: 16px;
 }
 
+.header-logo {
+    padding-left: 100px;
+}
+
+.header-links {
+    padding-right: 100px;
+}
+
 .hero {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    gap: 20px
+}
+
+.intro {
+    padding-left: 100px;
 }
 
 .hero img {
-    width: 250px;
+    max-width: 300px;
+    height: auto;
+    padding-right: 100px;
+}
+
+.features {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.container img {
+    max-width: 250px;
     height: auto;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: baseline;
+}
+
