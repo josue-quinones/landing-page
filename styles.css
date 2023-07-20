@@ -192,6 +192,7 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1;
+    gap: 10px;
 }
 
 .subscribe {
